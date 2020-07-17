@@ -13,6 +13,9 @@ function multi($a, $b){
 }
 
 function division($a, $b){
+    if($b == 0){
+        return "error";   
+    }
     return $a / $b;
 }
 
